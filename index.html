@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puissance 4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="titlePuissance mt-5">
+		<h1>Puissance 4</h1>
+	</div>
+	<form>
+		<p class="mb-0 mt-5 direction">Entrez une largeur souhaitée : </p>
+		<div id="large" contenteditable="true" class="p-2 col-3 d-inline-flex"></div>
+		<p class="mt-3 mb-0 direction">Entrez un hauteur souhaitée : </p>
+		<div id="hauteur" contenteditable="true" class="p-2 col-3 d-inline-flex"></div>
+		<div class="mt-2 direction">
+			<input type="submit" name="valid" id="bouton" value="Valider" class="btn btn-danger p-2 col-3">
+		</div>
+	</form>
+	<div>
+		<p class="ml-2 mr-1 mb-0">Color J1:</p>
+		<div class="selectColor1"></div>
+	</div>
+	<div class="mr-2">
+		<p class="ml-2 mb-0">Color J2:</p>
+		<div class="selectColor2"></div>
+	</div>
+
+	<div class="game bg-danger"></div>
+</body>
+</html>
